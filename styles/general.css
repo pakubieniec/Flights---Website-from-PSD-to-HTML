@@ -14,3 +14,20 @@ body {
   font-weight: 400;
   line-height: 1;
 }
+
+.container-bg {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-md {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 9.6rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+}
