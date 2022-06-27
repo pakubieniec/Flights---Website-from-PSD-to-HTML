@@ -105,6 +105,7 @@
 .flights {
   height: 100vh;
   background-color: #d9d9d9;
+  position: relative;
 }
 
 .flights-text {
@@ -144,4 +145,15 @@
   position: absolute;
   top: -1rem;
   left: 1rem;
+}
+
+.flights-theme {
+  width: 100%;
+  height: 20%;
+  background-image: url("/images/theme.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
