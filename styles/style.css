@@ -93,7 +93,7 @@
       rgba(255, 255, 255, 0.1),
       rgba(255, 255, 255, 0.05)
     ),
-    url(/images/hero-img.png);
+    url(/images/hero-img.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -156,4 +156,17 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2;
+  row-gap: 2.4rem;
+  column-gap: 2.4rem;
+}
+
+.gallery-img {
+  /* display: block; */
+  width: 100%;
 }
